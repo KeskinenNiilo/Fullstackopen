@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { getAll, create, update, deletePerson, Notification, SuccessNotification } from './services'
+import { getAll, create, deletePerson, Notification, SuccessNotification } from './services'
 import './style.css'
 
 const Filter = (props) => {
